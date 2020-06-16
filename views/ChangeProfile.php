@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <title>Twitter</title>
-    <link rel="stylesheet"  href="./view/css/styleChangeProfil.css">
+    <link rel="stylesheet"  href="css/styleChangeProfil.css">
 </head>
 
 <body>
