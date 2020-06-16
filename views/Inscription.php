@@ -20,6 +20,12 @@
 				<input type="text" class="form-control" id="name" name="name"
 					required="required"/>
 			</div>
+			<!--FirstName field-->
+			<div class="form-group">
+				<label class="control-label" for="firstname">Prénom:</label>
+				<input type="text" class="form-control" id="firstname" name="firstname"
+					required="required"/>
+			</div>
 
 			<!--Pseudo field-->
 			<div class="form-group">

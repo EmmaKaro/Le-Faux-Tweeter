@@ -30,11 +30,11 @@
 
     <img src="img/twitter_bird.png" HEIGHT="700">
 
-    <h1>Découvrez ce qui se passe dans le monde en temps réel.</h1>
+    <h1>DÃ©couvrez ce qui se passe dans le monde en temps rÃ©el.</h1>
 
     <h2>Rejoignez Twitter aujourd'hui.</h2>
 
-    <a href="/projet_bd/pages/inscription"><h3>S'inscrire</h3></a>
+    <a href="inscription.php"><h3>S'inscrire</h3></a>
 
 
 <!-- Le pied de page -->
