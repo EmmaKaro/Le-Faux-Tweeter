@@ -28,7 +28,7 @@
      ?>
     </div>
 
-    <img src="./view/img/twitter_bird.png" HEIGHT="700">
+    <img src="img/twitter_bird.png" HEIGHT="700">
 
     <h1>Découvrez ce qui se passe dans le monde en temps réel.</h1>
 
