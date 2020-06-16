@@ -12,13 +12,13 @@
 
 <?php include("menu.php"); ?>
 
-<!-- Petit menu: tweets, abonnements, abonnés, j'aime-->
+<!-- Petit menu: tweets, abonnements, abonnÃ©s, j'aime-->
 
 <section>
-    <a href="/projet_bd/pages/profilTweet"><h4>Tweets</h4></a><a href="/projet_bd/pages/profilAbonnement"><h4>Abonnements</h4></a><a href="/projet_bd/pages/profilAbonnes"><h4>Abonnés</h4></a><a href="/projet_bd/pages/profilLike"><h4>J'aime</h4></a><a href="/projet_bd/pages/changeProfil"><h14>Editer le profil</h14></a>
+    <a href="profilTweet.php"><h4>Tweets</h4></a><a href="profilAbonnement.php"><h4>Abonnements</h4></a><a href="profilAbonnes.php"><h4>AbonnÃ©s</h4></a><a href="profilLike.php"><h4>J'aime</h4></a><a href="ChangeProfil.php"><h14>Editer le profil</h14></a>
 </section>
 
-<!--section où nous pourrons modifier les données de notre profil-->
+<!--section oÃ¹ nous pourrons modifier les donnÃ©es de notre profil-->
 <article>
     <form method="post" action="/projet_bd/pages/traitementChangeProfil">
         <p>
