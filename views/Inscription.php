@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <title>Le Faux Twitter inscription</title>
     
-  <link rel="stylesheet" href="styleInscription.css">
+  <link rel="stylesheet" href="css/styleInscription.css">
 </head>
 
 <body>
