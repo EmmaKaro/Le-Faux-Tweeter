@@ -91,13 +91,12 @@ img{
   left:8%;
 }
 
-
 h1{
     font-family: 'Pacifico', cursive;
     color: #ff3e00;
     position: absolute;
     display: block;
-    left: 34%;
+    left: 29%;
     /*right: 33%;*/
     top: 7%;
     max-width: 100em;
