@@ -89,46 +89,6 @@ img{
   left:8%;
 }
 
-h1 {
-    display: inline-block;
-    margin-left: 10%;
-    font-size: 17px;
-    color: #73ad9a;
-}
-
-h2{
-    display: inline-block;
-    margin-left: 10%;
-    font-size: 17px;
-    color: #73ad9a;
-}
-
-h1:hover{
-    text-decoration: underline;
-}
-
-
-h2:hover{
-    text-decoration: underline;
-}
-
-h3{
-    width: 80px;
-    text-align: center;
-    display: inline-block;
-    top: 3%;
-    margin-left: 10%;
-    border-radius: 100px;
-    cursor:pointer;
-    background-color: #96dfcb;
-    color:white;
-    font-size: 17px;
-}
-
-h3:hover{
-    background-color: #73ad9a;
-}
-
 section{
   background-color:  #ff3e00;
   position: absolute;
@@ -145,6 +105,10 @@ h4{
   font: 23px 'Pacifico', cursive;
 }
 
+h4:hover{
+    color: yellow;
+}
+
 h14{
   display:inline-block;
   margin-left: 50px;
@@ -155,7 +119,7 @@ h14{
 }
 
 h14:hover{
-    color: white;
+    color: yellow;
 }
 
 aside{
@@ -182,23 +146,6 @@ li:hover{
     background-color: white;
 }
 
-
-h6{
-    display: block;
-    margin-left: 10%;
-    margin-top:1%;
-    font-size: 20px;
-    color:#6b6fb8;
-}
-
-h7{
-    display: block;
-    margin-left: 10%;
-    font-size: 16px;
-    color: #73ad9a;
-    margin-top:1%;
-}
-
 h8{
     font-size: 20px;
     color: #6b6fb8;
@@ -222,14 +169,9 @@ h10{
     font-family: 'Bree Serif', serif;
 }
 
-h10:hover{
+/*h10:hover{
     color: red;
-}
-
-h11{
-    font-size: 15px;
-    color: #18c640;
-}
+}*/
 
 h12{
     font-size: 15px;
@@ -238,14 +180,9 @@ h12{
     margin-left: 10%;
 }
 
-h12:hover{
+/*h12:hover{
     color: red;
-}
-
-h13{
-    font-size: 15px;
-    color: #c6316f;
-}
+}*/
 
 h15{
   margin-left:80%;
@@ -253,7 +190,6 @@ h15{
   color: red;
   font-family: 'Bree Serif', serif;
 }
-
 
 footer{
     position: absolute;
