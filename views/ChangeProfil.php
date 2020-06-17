@@ -15,7 +15,11 @@
 <!-- Petit menu: tweets, abonnements, abonnés, j'aime-->
 
 <section>
-    <a href="profilTweet.php"><h4>Tweets</h4></a><a href="profilAbonnement.php"><h4>Abonnements</h4></a><a href="profilAbonnes.php"><h4>Abonnés</h4></a><a href="profilLike.php"><h4>J'aime</h4></a><a href="ChangeProfil.php"><h14>Editer le profil</h14></a>
+    <a href="profilTweet.php"><h4>Tweets</h4></a>
+    <a href="profilAbonnement.php"><h4>Abonnements</h4></a>
+    <a href="profilAbonnes.php"><h4>Abonnés</h4></a>
+    <a href="profilLike.php"><h4>J'aime</h4></a>
+    <a href="ChangeProfil.php"><h14>Editer le profil</h14></a>
 </section>
 
 <!--section où nous pourrons modifier les données de notre profil-->
