@@ -1,11 +1,11 @@
 <?php
 
 
-namespace model\finder;
+namespace Model\Finder;
 
 
-use app\src\App;
-use model\gateway\RetweetGateway;
+use App\Src\App;
+use Model\Gateway\RetweetGateway;
 
 class RetweetFinder
 {
@@ -23,9 +23,15 @@ class RetweetFinder
     public function __construct(App $app)
     {
         $this->app = $app;
-        $this->conn = $this->app->getService('database')->getConnection();
+        $this->conn = $this->app->getService('Database')->getConnection();
     }
 
+    /**
+     * @param $id
+     * @return mixed : si déjà retweeté
+     * @return null : si jamais retweeté
+     */
+    //vérifie si le tweet est déjà aimé ou non
     public function findRetweetById($id)
     {
         $query = $this->conn->prepare('SELECT r.retweet_tweet_id FROM retweet r WHERE r.retweet_tweet_id = :retweet_tweet_id');
@@ -36,28 +42,5 @@ class RetweetFinder
 
         return $element;
     }
-
-    public function findRetweetByUser($user_id)
-    {
-        $query = $this->conn->prepare('SELECT r.retweet_tweet_id FROM retweet r WHERE r.retweet_user_id = :retweet_user_id');
-        $query->execute([':retweet_user_id' => $user_id]); // Exécution de la requête
-        $elements = $query->fetchAll(\PDO::FETCH_ASSOC);
-
-        if($elements == 0) return null;
-
-        $retweets = [];
-        $retweet = null;
-
-        foreach ($elements as $element)
-        {
-            $retweet = new RetweetGateway($this->app);
-            //$retweet->hydrate($element);
-
-            $retweets[] = $retweet;
-        }
-
-        return $retweets;
-    }
-
 
 }

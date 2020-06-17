@@ -11,7 +11,7 @@
 
 
     <h1>Rejoignez notre contrefacon de Twitter !!!</h1>
-    <form method="post" action="/projet_bd/pages/traitement">
+    <form method="post" action="/traitement">
         <ul class="form-style-1">
 
 		<!--Name field-->
@@ -33,22 +33,21 @@
 				<input type="text" class="form-control" id="pseudo" name="pseudo"
 					required="required"/>
 			</div>
-
-			<!--Email field-->
-			<div class="form-group">
-				<label class="control-label" for="email">Addresse Email:</label>
-				<input type="email" class="form-control" id="email" name="email"
-					required="required"/>
-			</div>
-
-			<!--<?php if(isset($_SESSION['flashInscription'])) {
+			
+        <?php if(isset($_SESSION['flashInscription'])) {
             echo "
            <p style='color: red'>
             " . $_SESSION['flashInscription'] . "
            </p>
         ";
         }
-        ?>-->
+        ?>
+			<!--Email field-->
+			<div class="form-group">
+				<label class="control-label" for="email">Addresse Email:</label>
+				<input type="email" class="form-control" id="email" name="email"
+					required="required"/>
+			</div>
 
 			<!--Password field-->
 			<div class="form-group">
@@ -68,9 +67,9 @@
 				<input type="date" name="birth" id="birth" class="field-divided" placeholder="birth"/>
 			</div>
 
-			<input type="submit" class="btn btn-primary" value="Inscription" name="register"/
+			<input type="submit" class="btn btn-primary" value="Inscription" name="register"/>
 
-		</form>
+		
         </ul>
     </form>
 

@@ -14,12 +14,12 @@
 
 <h4><?php echo htmlspecialchars($_POST['recherche']);?></h4>
 
-<!-- liste des personnes correspondantes aux caractères de la recherche-->
+<!-- liste des personnes correspondantes aux caractÃ©res de la recherche-->
 
 
  <?php foreach ($params['users'] as $user) : ?>
 <li>
-    <a href="/projet_bd/pages/traitementSuivre/<?php echo $user->getId() ?>">  <h5>Suivre</h5> </a>
+    <a href="/Le-Faux-Tweeter/traitementSuivre/<?php echo $user->getId() ?>">  <h5>Suivre</h5> </a>
     <h6><?php echo $user->getPseudo(); ?></h6>
     <h7>@<?php echo $user->getUserName(); ?></h7>
     <h8><?php echo $user->getInfoPerso(); ?></h8>

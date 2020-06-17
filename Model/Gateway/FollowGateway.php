@@ -1,9 +1,9 @@
 <?php
 
 
-namespace model\gateway;
+namespace Model\Gateway;
 
-use app\src\App;
+use App\Src\App;
 
 class FollowGateway
 {
@@ -60,7 +60,7 @@ class FollowGateway
 
     public function __construct(App $app)
     {
-        $this->conn = $app->getService('database')->getConnection();
+        $this->conn = $app->getService('Database')->getConnection();
     }
 
     public function insert() : void

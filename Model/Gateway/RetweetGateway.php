@@ -1,8 +1,8 @@
 <?php
 
 
-namespace model\gateway;
-use app\src\App;
+namespace Model\Gateway;
+use App\Src\App;
 
 class RetweetGateway
 {
@@ -59,7 +59,7 @@ class RetweetGateway
 
     public function __construct(App $app)
     {
-        $this->conn = $app->getService('database')->getConnection();
+        $this->conn = $app->getService('Database')->getConnection();
     }
 
     public function insert() : void
