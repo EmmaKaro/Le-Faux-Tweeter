@@ -12,6 +12,11 @@
 
 <?php include("menu.php"); ?>
 
+<h1>
+  Vous avez quelque chose à partager ? </br>
+  Dites-nous tout !
+</h1>
+    
 <article>
     <h4>Ecrire un nouveau Tweet</h4>
     <ul class="form-style-2">
@@ -23,6 +28,8 @@
 
 </article>
 
+<img class="phoenix1" src="img/Phoenix_right.png" HEIGHT="350" alt="un phoenix a droite de l'ecran">
+<img class="phoenix2" src="img/Phoenix_left.png" HEIGHT="350" alt="un phoenix a gauche de l'ecran">
 <!-- Le pied de page -->
 
 <?php include("pied_de_page.php"); ?>
