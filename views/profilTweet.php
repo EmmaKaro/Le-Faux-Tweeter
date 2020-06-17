@@ -28,11 +28,11 @@
 
 <li>
     <?php if ($tweets["tweet_user_id"] == $_SESSION['id']) {?>
-        <!--   <a href="/projet_bd/pages/tweeter/<?php //echo $tweets["tweet_id"] ?>">  <h15>Modifier</h15></a>-->
-    <a href="/projet_bd/pages/traitementSuppTweet/<?php echo $tweets["tweet_id"] ?>">  <h15>Supprimer</h15></a> <?php }?>
+        <!--   <a href="/Le-Faux-Tweeter/tweeter/<?php //echo $tweets["tweet_id"] ?>">  <h15>Modifier</h15></a>-->
+    <a href="/Le-Faux-Tweeter/traitementSuppTweet/<?php echo $tweets["tweet_id"] ?>">  <h15>Supprimer</h15></a> <?php }?>
     <h8><?php echo $tweets['user_name']; ?></h8><h10><?php echo $tweets["tweet_date"];?></h10>
         <h9><?php echo $tweets["tweet_content"]; ?></h9>
-        <a href="/projet_bd/pages/traitementRetweet/<?php echo $tweets["tweet_id"] ?>">  <h10>Retweeter</h10> </a><a href="/projet_bd/pages/traitementLike/<?php echo $tweets["tweet_id"] ?>">  <h12>J'aime </h12> </a>
+        <a href="/Le-Faux-Tweeter/traitementRetweet/<?php echo $tweets["tweet_id"] ?>">  <h10>Retweeter</h10> </a><a href="/Le-Faux-Tweeter/traitementLike/<?php echo $tweets["tweet_id"] ?>">  <h12>J'aime </h12> </a>
 </li>
 <?php endforeach; ?>
 

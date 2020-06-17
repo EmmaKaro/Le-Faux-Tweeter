@@ -12,7 +12,7 @@
 
 <?php include("menu.php"); ?>
 
-<!-- Petit menu: tweets, abonnements, abonn�s, j'aime-->
+<!-- Petit menu: tweets, abonnements, abonnés, j'aime-->
 
 <section>
     <a href="profilTweet.php"><h4>Tweets</h4></a><a href="profilAbonnement.php"><h4>Abonnements</h4></a><a href="profilAbonnes.php"><h4>Abonnés</h4></a><a href="profilLike.php"><h4>J'aime</h4></a><a href="ChangeProfil.php"><h14>Editer le profil</h14></a>
@@ -29,7 +29,7 @@
     <li>
         <h8><?php echo $tweet["user_name"]; ?></h8><h10><?php echo $tweet["tweet_date"];?></h10>
         <h9><?php echo $tweet["tweet_content"]; ?></h9>
-        <a href="/projet_bd/pages/traitementRetweet/<?php echo $tweet["tweet_id"] ?>">  <h10>Retweeter</h10> </a><a href="/projet_bd/pages/traitementLike/<?php echo $tweet["tweet_id"] ?>">  <h12>J'aime </h12> </a>
+        <a href="/Le-Faux-Tweeter/traitementRetweet/<?php echo $tweet["tweet_id"] ?>">  <h10>Retweeter</h10> </a><a href="/Le-Faux-Tweeter/traitementLike/<?php echo $tweet["tweet_id"] ?>">  <h12>J'aime </h12> </a>
     </li>
 <?php endforeach; ?>
 

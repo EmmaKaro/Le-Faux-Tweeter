@@ -12,7 +12,7 @@
 
 <?php include("menu.php"); ?>
 
-<!-- Petit menu: tweets, abonnements, abonnÈs, j'aime-->
+<!-- Petit menu: tweets, abonnements, abonn√©s, j'aime-->
 
 <section>
     <a href="profilTweet.php"><h4>Tweets</h4></a><a href="profilAbonnement.php"><h4>Abonnements</h4></a><a href="profilAbonnes.php"><h4>Abonn√©s</h4></a><a href="profilLike.php"><h4>J'aime</h4></a><a href="ChangeProfil.php"><h14>Editer le profil</h14></a>
@@ -22,12 +22,12 @@
 
 <?php include("descriptionProfil.php"); ?>
 
-<!-- nos abonnÈs-->
+<!-- nos abonn√©s-->
 
 <?php foreach ($params['users'] as $user) : ?>
     <li>
-        <a href="/projet_bd/pages/traitementSuivre/<?php echo $user->getId() ?>">  <h5>Suivre</h5> </a>
-        <a href="/projet_bd/pages/profilOtherPeopleAbonnement/<?php echo $user->getId() ?>"><h16><?php echo $user->getPseudo(); ?></h16></a>        <h7>@<?php echo $user->getUserName(); ?></h7>
+        <a href="/Le-Faux-Teewter/traitementSuivre/<?php echo $user->getId() ?>">  <h5>Suivre</h5> </a>
+        <a href="/Le-Faux-Tweeter/profilOtherPeopleAbonnement/<?php echo $user->getId() ?>"><h16><?php echo $user->getPseudo(); ?></h16></a>        <h7>@<?php echo $user->getUserName(); ?></h7>
         <h8><?php echo $user->getInfoPerso(); ?></h8>
     </li>
 <?php endforeach; ?>
