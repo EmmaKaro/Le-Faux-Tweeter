@@ -8,7 +8,7 @@
 
 <body>
 
-    <form method="post" action="/projet_bd/pages/traitementConnection">
+    <form method="post" action="/Le-Faux-Tweeter/traitementConnection">
         <ul class="form-style-1">
             <p>
             <input type="text" name="user_name" id="user_name" class="field-divided" placeholder="Nom d'utilisateur" size="30" maxlength="40" />
