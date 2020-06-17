@@ -8,7 +8,7 @@
 
 <body>
 
-    <form method="post" action="/Le-Faux-Tweeter/traitementConnection">
+    <form method="post" action="/projet_bd/pages/traitementConnection">
         <ul class="form-style-1">
             <p>
             <input type="text" name="user_name" id="user_name" class="field-divided" placeholder="Nom d'utilisateur" size="30" maxlength="40" />
@@ -21,18 +21,22 @@
     <?php if(isset($_SESSION['flash'])) {
         echo "
            <p style='color: red'>
-            " . $_SESSION['flash'] . " 
+            " . $_SESSION['flash'] . "
            </p>
         ";
     }
      ?>
     </div>
 
-    <img src="img/twitter_bird.png" HEIGHT="700">
+    <img class="phoenix1" src="img/Phoenix_right.png" HEIGHT="350" alt="un phoenix a droite de l'ecran">
+    <img class="phoenix2" src="img/Phoenix_left.png" HEIGHT="350" alt="un phoenix a gauche de l'ecran">
 
-    <h1>Découvrez ce qui se passe dans le monde en temps réel.</h1>
+    <h1>Le Twitter version Leader Price.</h1>
 
-    <h2>Rejoignez Twitter aujourd'hui.</h2>
+    <h2>
+      Vous n'avez pas encore de compte ? </br>
+      Rejoignez notre faux Twitter dès aujourd'hui !
+    </h2>
 
     <a href="inscription.php"><h3>S'inscrire</h3></a>
 
